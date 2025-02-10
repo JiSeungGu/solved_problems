@@ -22,7 +22,6 @@ public class 단어정렬 {
                 if(o1.length() == o2.length()) {
                     return o1.compareTo(o2);
                 }
-//                return o2.compareTo(o1);
                 return o1.length() - o2.length();
             }
         });
