@@ -1,8 +1,8 @@
-package Algorithm;
+package SelfRepeat;
 
 import java.util.*;
 
-public class 조합의_합 {
+public class 조합의_합_dfs {
     public static int[] nums;
     public static int target;
     public static int N;
