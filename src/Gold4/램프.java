@@ -1,4 +1,4 @@
-package Gold5;
+package Gold4;
 
 
 import java.util.*;
@@ -28,7 +28,9 @@ public class 램프 {
         }
 
         K = sc.nextInt();
-
+        if(K>50) {
+            K = 50;
+        }
         dfs(0, 0, map);
 
         System.out.println(maxCount);
